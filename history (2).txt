@@ -1,0 +1,11 @@
+   0 mkdir /home/user /home/user/start && touch /home/user/start/1.txt
+   1 echo "Start" >> 1.txt
+   2 date
+   3 echo "Mon Mar 20 16:38:10 UTC 2023" >> 1.txt
+   4 mkdir /opt/task && touch /opt/task/start.txt
+   5 cp 1.txt start.txt
+   6 ls -a /
+   7 echo ".preload2     lib           root          tmp" >> start.txt
+   8 history
+   9 export_history >> HWfrom1003.txt
+  10 history > history.txt
